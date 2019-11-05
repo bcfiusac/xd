@@ -1,0 +1,42 @@
+{
+  "name": "finalito",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "velocidad": {
+      "type": "number",
+      "required": true
+    },
+    "distancia": {
+      "type": "number",
+      "required": true
+    },
+    "tiempoviaje": {
+      "type": "number",
+      "required": true
+    },
+    "cantidadobj": {
+      "type": "number",
+      "required": true
+    },
+    "tiempodecision": {
+      "type": "number",
+      "required": true
+    },
+    "x": {
+      "type": "number",
+      "required": true
+    },
+    "y": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,46 @@
+{
+  "name": "final",
+  "plural": "finales",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "temperatura": {
+      "type": "number",
+      "required": true
+    },
+    "gas": {
+      "type": "number",
+      "required": true
+    },
+    "lluvia": {
+      "type": "number",
+      "required": true
+    },
+    "peso": {
+      "type": "number",
+      "required": true
+    },
+    "fecha": {
+      "type": "string",
+      "required": true
+    },
+    "hora": {
+      "type": "string",
+      "required": true
+    },
+    "latitud": {
+      "type": "number",
+      "required": true
+    },
+    "longitud": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

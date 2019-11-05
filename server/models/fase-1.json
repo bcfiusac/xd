@@ -1,0 +1,34 @@
+{
+  "name": "fase1",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "velocidad": {
+      "type": "number",
+      "required": true
+    },
+    "distancia": {
+      "type": "number",
+      "required": true
+    },
+    "tiempoviaje": {
+      "type": "number",
+      "required": true
+    },
+    "cantidadobj": {
+      "type": "number",
+      "required": true
+    },
+    "tiempodecision": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

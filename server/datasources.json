@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mibase": {
+    "host": "cluster1-nk6tf.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://byron:1234@cluster1-nk6tf.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "finalisima",
+    "password": "1234",
+    "name": "mibase",
+    "user": "byron",
+    "connector": "mongodb"
+  }
+}
